@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMS3</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="shortcut icon" type="image/jpg" href="SMS3.jpg"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <style>
+    @import url("../style.css");
+
+    /* Make sidebar scrollable in landscape mode on mobile devices */
+    @media (max-width: 768px) and (orientation: landscape) {
+      .sidebar {
+        max-height: 100vh;
+        overflow-y: auto;
+      }
+    }
+  </style>
+</head>
+<body >
+    
+   <!-- navbar -->
+   <div class="sidebar text-white p-2 vh-100 overflow-auto">
+    <div class="text-center">
+      <img style="width: 175px; height: 100px;" src="SMS3.jpg" class="rounded" alt="SMS">
+    </div>
+    <span class="description" style="text-align: center"><h3>CRAD</h3></span> 
+    </a>
+    
+    <!-- dashboard -->
+  <a href="dashboard.html" class="nav-link text-center active">
+    <i class="bi bi-speedometer fs-5"></i>  
+    <span class="description">Dashboard
+    </span>
+  </a>
+
+    <!-- module 1 -->
+    <a href="#" class="nav-link text-center active" data-bs-toggle="collapse" data-bs-target="#module1drop" aria-expanded="false" aria-controls="module1drop">
+      <i class="bi bi-cloud-upload fs-5"></i>   
+      <span class="description">Research Proposal Submission & Tracking
+        <i class="bi bi-caret-down-fill"></i>
+      </span>
+    </a>
+
+    <!-- submodules 1 -->
+    <div class="sub-menu collapse" id="module1drop">
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 1</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 2</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 3</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 4</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 5</span></a>
+    </div>
+
+     <!-- module 2 -->
+     <a href="#" class="nav-link text-center" data-bs-toggle="collapse" data-bs-target="#module2drop" aria-expanded="false" aria-controls="module2drop">
+      <i class="bi bi-person-plus-fill fs-5"></i>    
+      <span class="description">Adviser & Panel Assignment System
+        <i class="bi bi-caret-down-fill"></i>
+      </span>
+    </a>
+
+    <!-- submodules 2 -->
+    <div class="sub-menu collapse" id="module2drop">
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 1</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 2</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 3</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 4</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 5</span></a>
+    </div>
+
+    <!-- module 3 -->
+    <a href="#" class="nav-link text-center" data-bs-toggle="collapse" data-bs-target="#module3drop" aria-expanded="false" aria-controls="module3drop">
+      <i class="bi bi-cash-stack fs-5"></i>      
+      <span class="description">Research Grants & Funding Assistance
+        <i class="bi bi-caret-down-fill"></i>
+      </span>
+    </a>
+
+    <!-- submodules 3 -->
+    <div class="sub-menu collapse" id="module3drop">
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 1</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 2</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 3</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 4</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 5</span></a>
+    </div>
+
+    <!-- module 4 -->
+    <a href="#" class="nav-link text-center active" data-bs-toggle="collapse" data-bs-target="#module4drop" aria-expanded="false" aria-controls="module4drop">
+      <i class="bi bi-book fs-5"></i>    
+      <span class="description">Documentation & Publication Management
+        <i class="bi bi-caret-down-fill"></i>
+      </span>
+    </a>
+      
+    <!-- submodules 4 -->
+    <div class="sub-menu collapse" id="module4drop">
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 1</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 2</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 3</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 4</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 5</span></a>
+    </div>
+
+   <!-- module 5-->
+   <a href="analysis.html" class="nav-link text-center">
+    <i class="bi bi-bar-chart-line fs-5"></i>  
+    <span class="description">Research Analysis & Reporting</span>
+  </a>
+
+    
+
+    
+     <!-- module 6 -->
+     <a href="#" class="nav-link text-center active" data-bs-toggle="collapse" data-bs-target="#module6drop" aria-expanded="false" aria-controls="module6drop">
+      <i class="bi bi-calendar4-week fs-5"></i>      
+      <span class="description">Research Defense Scheduling
+        <i class="bi bi-caret-down-fill"></i>
+      </span>
+    </a>
+     
+    <!-- submodules 6 -->
+    <div class="sub-menu collapse" id="module6drop">
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 1</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 2</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 3</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 4</span></a>
+      <a href="#" class="nav-link"><i class="bi bi-list-ul"></i> <span class="description">sub module 5</span></a>
+    </div>
+
+
+    
+  </nav>
+</div>      
+         <!-- Main Content -->
+         <div class="col-md-9 col-lg-10 main-content ">
+            <!-- Header -->
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h4>Research Analysis Dashboard</h4>
+                <div class="d-flex">
+                    <div class="input-group search-bar me-2">
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <button class="btn btn-outline-secondary" type="button">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-outline-primary bg-primary text-white dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-plus"></i> New
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">New Report</a></li>
+                            <li><a class="dropdown-item" href="#">New Analysis</a></li>
+                            <li><a class="dropdown-item" href="#">New Survey</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Row -->
+            <div class="row mb-4">
+                <div class="col-md-3">
+                    <div class="card stat-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="text-muted mb-1">Total Reports</h6>
+                                    <h3 class="mb-0">42</h3>
+                                </div>
+                                <div class="stat-icon">
+                                    <i class="bi bi-file-earmark-text"></i>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <span class="text-success"><i class="bi bi-arrow-up"></i> 12%</span>
+                                <span class="text-muted ms-2">from last month</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card stat-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="text-muted mb-1">Active Studies</h6>
+                                    <h3 class="mb-0">8</h3>
+                                </div>
+                                <div class="stat-icon">
+                                    <i class="bi bi-clipboard-data"></i>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <span class="text-success"><i class="bi bi-arrow-up"></i> 5%</span>
+                                <span class="text-muted ms-2">from last month</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card stat-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="text-muted mb-1">Participants</h6>
+                                    <h3 class="mb-0">1,254</h3>
+                                </div>
+                                <div class="stat-icon">
+                                    <i class="bi bi-people"></i>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <span class="text-danger"><i class="bi bi-arrow-down"></i> 3%</span>
+                                <span class="text-muted ms-2">from last month</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card stat-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="text-muted mb-1">Completion Rate</h6>
+                                    <h3 class="mb-0">78%</h3>
+                                </div>
+                                <div class="stat-icon">
+                                    <i class="bi bi-check-circle"></i>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <span class="text-success"><i class="bi bi-arrow-up"></i> 8%</span>
+                                <span class="text-muted ms-2">from last month</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Row -->
+            <div class="row mb-4">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span>Research Trends</span>
+                            <div class="btn-group" role="group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary active">Weekly</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Monthly</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Yearly</button>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex justify-content-center">
+                            <div class="chart-container" id="trendChart"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <span>Research Categories</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-container" id="categoryChart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Reports -->
+            <div class="card mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <span>Recent Reports</span>
+                    <button class="btn btn-sm btn-outline-primary">View All</button>
+                </div>
+                <div class="card-body table-container">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Report Name</th>
+                                <th>Category</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Market Analysis Q2 2023</td>
+                                <td>Market Research</td>
+                                <td>Jun 15, 2023</td>
+                                <td><span class="badge bg-success">Completed</span></td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button class="btn btn-sm btn-outline-primary"><i class="bi bi-eye"></i></button>
+                                        <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-download"></i></button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>User Experience Study</td>
+                                <td>UX Research</td>
+                                <td>Jun 10, 2023</td>
+                                <td><span class="badge bg-warning text-dark">In Review</span></td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button class="btn btn-sm btn-outline-primary"><i class="bi bi-eye"></i></button>
+                                        <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-download"></i></button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Product Satisfaction Survey</td>
+                                <td>Customer Research</td>
+                                <td>Jun 5, 2023</td>
+                                <td><span class="badge bg-success">Completed</span></td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button class="btn btn-sm btn-outline-primary"><i class="bi bi-eye"></i></button>
+                                        <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-download"></i></button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Competitor Analysis</td>
+                                <td>Market Research</td>
+                                <td>May 28, 2023</td>
+                                <td><span class="badge bg-primary">In Progress</span></td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button class="btn btn-sm btn-outline-primary"><i class="bi bi-eye"></i></button>
+                                        <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-download"></i></button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Focus Group Findings</td>
+                                <td>Qualitative Research</td>
+                                <td>May 20, 2023</td>
+                                <td><span class="badge bg-success">Completed</span></td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button class="btn btn-sm btn-outline-primary"><i class="bi bi-eye"></i></button>
+                                        <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-download"></i></button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Ongoing Projects -->
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <span>Ongoing Research Projects</span>
+                    <button class="btn btn-sm btn-outline-primary">View All</button>
+                </div>
+                <div class="card-body">
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div>
+                                <h6 class="mb-0">Consumer Behavior Analysis</h6>
+                                <small class="text-muted">Market Research</small>
+                            </div>
+                            <span class="badge bg-primary">75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div>
+                                <h6 class="mb-0">Product Usability Testing</h6>
+                                <small class="text-muted">UX Research</small>
+                            </div>
+                            <span class="badge bg-primary">45%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div>
+                                <h6 class="mb-0">Brand Perception Study</h6>
+                                <small class="text-muted">Brand Research</small>
+                            </div>
+                            <span class="badge bg-primary">90%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+      </div>
+    </div>
+</div>
+  
+</div>
+  
+  </style>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Initialize charts when DOM is loaded
+    document.addEventListener('DOMContentLoaded', function() {
+        // Trend Chart
+        const trendCtx = document.createElement('canvas');
+        document.getElementById('trendChart').appendChild(trendCtx);
+        
+        new Chart(trendCtx, {
+            type: 'line',
+            data: {
+                labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6'],
+                datasets: [{
+                    label: 'Surveys Completed',
+                    data: [65, 59, 80, 81, 56, 85],
+                    borderColor: '#4361ee',
+                    backgroundColor: 'rgba(67, 97, 238, 0.1)',
+                    tension: 0.3,
+                    fill: true
+                },
+                {
+                    label: 'Participants Engaged',
+                    data: [28, 48, 40, 45, 76, 65],
+                    borderColor: '#4cc9f0',
+                    backgroundColor: 'rgba(76, 201, 240, 0.1)',
+                    tension: 0.3,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+        
+        // Category Chart
+        const categoryCtx = document.createElement('canvas');
+        document.getElementById('categoryChart').appendChild(categoryCtx);
+        
+        new Chart(categoryCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Market Research', 'UX Research', 'Customer Research', 'Brand Research'],
+                datasets: [{
+                    data: [35, 25, 22, 18],
+                    backgroundColor: [
+                        '#4361ee',
+                        '#4cc9f0',
+                        '#3f37c9',
+                        '#7209b7'
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    }
+                },
+                cutout: '65%'
+            }
+        });
+        
+        // Initialize dropdowns and other Bootstrap components
+        const dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'));
+        dropdownElementList.map(function (dropdownToggleEl) {
+            return new bootstrap.Dropdown(dropdownToggleEl);
+        });
+    });
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9655646f001be2f1',t:'MTc1MzU0ODU4Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+      
+<script src="style.js"></script>
+</html>
